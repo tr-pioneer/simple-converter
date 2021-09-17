@@ -1,0 +1,192 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family: arial;
+    background: url('heatwave_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body a {
+
+        color: #1096D5;
+        font-size: 16px;
+
+}
+
+/* .page-container {
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    text-align: center;
+    overflow-y: scroll;
+} */
+
+header {
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-area > img {
+    width: 100px;
+    height: auto;
+}
+
+.div-title {
+    color: red;
+}
+.div-title h1 {
+    font-size: 28px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+main {
+    padding: 40px 50px 80px 50px;
+    width: 70%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+main h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+main h3 {
+    font-size: 22px;
+}
+
+main ul {
+    margin: 10px 0 30px 0;
+}
+
+main p,li,a {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+main pre {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+main figure {
+    margin: 30px 0;
+}
+
+main figure img {
+    max-width: 100%;
+}
+
+main figure figcaption,a {
+    font-size: 13px;
+}
+
+main button {
+    padding: 0 10px;
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #27ae61;
+    border: 1px solid #27ae61;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 189px;
+    vertical-align: middle;
+}
+
+main button:hover {
+    background-color: #034732;
+    border: 1px solid #034732;
+    transition: 1s;
+}
+
+main button:focus {
+    outline: 0;
+}
+
+main .tableBox {
+    padding: 15px 0;
+    overflow-x: auto;
+    width: 100%;
+}
+
+main .tableBox table {
+    max-width: 900px;
+    border-collapse: collapse;
+    font-family: arial;
+}
+
+
+main .tableBox table td,th {
+    padding: 5px 0;
+    min-width: 180px;
+    border: solid 1px black;
+    font-size: 15px;
+
+}
+
+main .tableBox table th {
+    text-align: center;
+    background-color: rgb(230,230,230);
+}
+
+main .tableBox table td {
+    padding: 5px 6px;
+}
+
+main input {
+    margin: 20px 0; 
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 50px;
+    width: 300px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(187, 160, 5, 0.2);
+}
+
+main input[type="radio"], main input[type="checkbox"] {
+    width: 20px;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+main .caixa_outer {
+    margin: 20px 0; 
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+main .inline {
+    display: inline-block;
+}
+
